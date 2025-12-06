@@ -1,12 +1,13 @@
 package com.manye.aoc;
 
 import com.manye.aoc.days.Day01;
+import com.manye.aoc.days.Day02;
 
 public class Main {
 
   public static void main(String[] args) {
     // 1. CHOOSE THE DAY TO RUN
-    int dayToRun = 1;
+    int dayToRun = 2;
 
     // 2. INITIALIZE THE DAY IMPLEMENTATION
     Day dayImpl;
@@ -14,9 +15,9 @@ public class Main {
       case 1:
         dayImpl = new Day01();
         break;
-      // case 2:
-      //     dayImpl = new Day02();
-      //     break;
+       case 2:
+           dayImpl = new Day02();
+           break;
       default:
         System.err.printf("Day %d not implemented.%n", dayToRun);
         return;
