@@ -1,0 +1,41 @@
+plugins {
+  id 'java' // Applies the Java plugin
+}
+
+group = 'com.manye'
+version = '1.0-SNAPSHOT'
+
+// --- Project Configuration ---
+java {
+  // Set the Java version to 21
+  toolchain {
+    languageVersion = JavaLanguageVersion.of(21)
+  }
+}
+
+repositories {
+  mavenCentral()
+}
+
+dependencies {
+  // --- Test Dependencies (JUnit 5 and AssertJ) ---
+  // Use the JUnit platform for execution
+  testImplementation platform('org.junit:junit-bom:5.10.1') // Updated to 5.10.1 (latest stable)
+  testImplementation 'org.junit.jupiter:junit-jupiter'
+  testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+
+  // AssertJ for fluent, readable assertions
+  testImplementation 'org.assertj:assertj-core:3.25.3' // Use the latest stable version
+
+  // --- Main/Compile Dependencies (Apache Commons) ---
+  // Apache Commons Lang 3 for common utility methods (String, Array, Number, etc.)
+  implementation 'org.apache.commons:commons-lang3:3.14.0' // Use the latest stable version
+
+  // Apache Commons IO for utility methods dealing with I/O (files, streams)
+  implementation 'commons-io:commons-io:2.15.1' // Optional but often useful for AoC file reading
+}
+
+// --- Test Task Configuration ---
+test {
+  useJUnitPlatform()
+}
