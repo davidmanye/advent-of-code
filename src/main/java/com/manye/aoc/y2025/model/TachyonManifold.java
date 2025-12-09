@@ -1,4 +1,4 @@
-package com.manye.aoc.model;
+package com.manye.aoc.y2025.model;
 
 import com.manye.aoc.GridUtils;
 import java.util.Arrays;

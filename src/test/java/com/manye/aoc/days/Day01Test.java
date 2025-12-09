@@ -1,7 +1,6 @@
 package com.manye.aoc.days;
 
 import static org.assertj.core.api.Assertions.assertThat;
-import static org.junit.jupiter.api.Assertions.*;
 
 import com.manye.aoc.Day;
 import com.manye.aoc.InputReader;

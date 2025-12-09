@@ -1,7 +1,6 @@
-package com.manye.aoc.model;
+package com.manye.aoc.y2025.model;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
 

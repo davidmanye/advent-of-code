@@ -15,9 +15,9 @@ public class InputReader {
    * @param dayNumber The day number (1, 2, 3, etc.).
    * @return The file content as a String, or an empty string upon error.
    */
-  public static String readInput(int dayNumber) {
+  public static String readInput(int year, int dayNumber) {
     // Generates the formatted file name (e.g., "day01.txt")
-    String fileName = String.format("day%02d.txt", dayNumber);
+    String fileName = String.format("%s/day%02d.txt", year, dayNumber);
     String fullPath = INPUT_DIR + fileName;
 
     return readInput(fullPath);

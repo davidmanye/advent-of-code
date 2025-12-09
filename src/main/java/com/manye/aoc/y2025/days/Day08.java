@@ -1,7 +1,7 @@
-package com.manye.aoc.days;
+package com.manye.aoc.y2025.days;
 
 import com.manye.aoc.Day;
-import com.manye.aoc.model.CircuitManager;
+import com.manye.aoc.y2025.model.CircuitManager;
 
 public class Day08 implements Day {
 

@@ -1,7 +1,7 @@
-package com.manye.aoc.days;
+package com.manye.aoc.y2025.days;
 
 import com.manye.aoc.Day;
-import com.manye.aoc.model.TachyonManifold;
+import com.manye.aoc.y2025.model.TachyonManifold;
 
 public class Day07 implements Day {
 

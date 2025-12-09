@@ -1,7 +1,7 @@
-package com.manye.aoc.days;
+package com.manye.aoc.y2025.days;
 
 import com.manye.aoc.Day;
-import com.manye.aoc.model.IDValidator;
+import com.manye.aoc.y2025.model.IDValidator;
 import java.util.Arrays;
 import java.util.stream.LongStream;
 import java.util.stream.Stream;

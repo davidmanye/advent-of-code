@@ -1,12 +1,9 @@
-package com.manye.aoc.days;
+package com.manye.aoc.y2025.days;
 
 import com.manye.aoc.Day;
-import com.manye.aoc.model.Range;
+import com.manye.aoc.y2025.model.Range;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Set;
-import java.util.stream.Collectors;
-import java.util.stream.LongStream;
 
 public class Day05 implements Day {
 

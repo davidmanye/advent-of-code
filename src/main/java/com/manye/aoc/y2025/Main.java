@@ -1,10 +1,12 @@
-package com.manye.aoc;
+package com.manye.aoc.y2025;
 
-import java.lang.reflect.InvocationTargetException;
+import com.manye.aoc.Day;
+import com.manye.aoc.InputReader;
 
 public class Main {
 
-  private static final String PACKAGE = "com.manye.aoc.days";
+  private static final String PACKAGE = "com.manye.aoc.y2025.days";
+  public static final int YEAR = 2025;
 
   public static void main(String[] args) {
     // SET THIS TO 0 TO AUTOMATICALLY RUN THE LATEST IMPLEMENTED DAY
@@ -19,7 +21,7 @@ public class Main {
       Day dayImpl = loadDay(dayNumber);
 
       // 3. READ INPUT
-      String input = InputReader.readInput(dayNumber);
+      String input = InputReader.readInput(YEAR, dayNumber);
       if (input == null || input.isEmpty()) {
         System.err.println("Input is empty or missing!");
         return;

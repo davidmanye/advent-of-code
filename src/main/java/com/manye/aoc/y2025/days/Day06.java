@@ -1,10 +1,8 @@
-package com.manye.aoc.days;
+package com.manye.aoc.y2025.days;
 
 import com.manye.aoc.Day;
-import com.manye.aoc.model.MathWorksheet;
-import com.manye.aoc.model.Range;
-import java.util.ArrayList;
-import java.util.List;
+import com.manye.aoc.y2025.model.MathWorksheet;
+import com.manye.aoc.y2025.model.Range;
 
 public class Day06 implements Day {
 

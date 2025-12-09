@@ -1,8 +1,8 @@
-package com.manye.aoc.days;
+package com.manye.aoc.y2025.days;
 
 import com.manye.aoc.Day;
-import com.manye.aoc.model.Rotation;
-import com.manye.aoc.model.SafeDial;
+import com.manye.aoc.y2025.model.Rotation;
+import com.manye.aoc.y2025.model.SafeDial;
 import java.util.List;
 
 public class Day01 implements Day {

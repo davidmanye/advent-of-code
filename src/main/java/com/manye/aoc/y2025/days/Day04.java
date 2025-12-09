@@ -1,9 +1,8 @@
-package com.manye.aoc.days;
+package com.manye.aoc.y2025.days;
 
 import com.manye.aoc.Day;
-import com.manye.aoc.model.Point;
-import com.manye.aoc.model.Warehouse;
-import java.util.List;
+import com.manye.aoc.y2025.model.Point;
+import com.manye.aoc.y2025.model.Warehouse;
 
 public class Day04 implements Day {
 
