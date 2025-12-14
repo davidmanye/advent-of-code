@@ -14,7 +14,7 @@ class Day11Test {
   void part1() {
     var expected = "5";
 
-    var actual = day.part1(InputReader.readInput("/test/inputs/day11_part1.txt"));
+    var actual = day.part1(InputReader.readInput("/test/inputs/2025/day11_part1.txt"));
 
     assertThat(actual).isEqualTo(expected);
   }
@@ -23,7 +23,7 @@ class Day11Test {
   void part2() {
     var expected = "2";
 
-    var actual = day.part2(InputReader.readInput("/test/inputs/day11_part2.txt"));
+    var actual = day.part2(InputReader.readInput("/test/inputs/2025/day11_part2.txt"));
 
     assertThat(actual).isEqualTo(expected);
   }
