@@ -1,4 +1,4 @@
-package com.manye.aoc.y2024.days;
+package com.manye.aoc.y2024;
 
 import com.manye.aoc.Day;
 import com.manye.aoc.InputReader;
