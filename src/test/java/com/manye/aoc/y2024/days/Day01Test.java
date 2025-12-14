@@ -4,7 +4,6 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 import com.manye.aoc.Day;
 import com.manye.aoc.InputReader;
-import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 class Day01Test {
@@ -13,9 +12,8 @@ class Day01Test {
   private final Day day = new Day01();
 
   @Test
-  @Disabled
   void part1() {
-    var expected = "";
+    var expected = "11";
 
     var actual = day.part1(InputReader.readInput(TEST_INPUT));
 
@@ -23,9 +21,8 @@ class Day01Test {
   }
 
   @Test
-  @Disabled
   void part2() {
-    var expected = "";
+    var expected = "31";
 
     var actual = day.part2(InputReader.readInput(TEST_INPUT));
 
